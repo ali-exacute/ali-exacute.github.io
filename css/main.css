@@ -1,0 +1,228 @@
+body {
+  font-family: "SamsungOne 400", "SamsungOne 700", "Samsung Sharp Sans Bold";
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-container {
+  max-width: 1441px;
+  margin: 0 auto;
+}
+
+.navbarlist {
+  transition: all 0s ease 500ms;
+}
+
+.navbarlist > li > a {
+  font-family: "Samsung Sharp Sans Bold";
+}
+
+.navbarlist li:hover {
+  background-color: black;
+  color: white;
+}
+
+.navbarlist li:hover a {
+  color: white;
+}
+
+.img_carousel h2 {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  width: 25%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.img_carousel p {
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  color: white;
+  width: 24%;
+  font-size: 1rem;
+}
+
+.carousel-button {
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  background-color: white;
+  color: black;
+}
+
+.carousel-button:hover {
+  background-color: #a8a8a8;
+}
+
+.SC-selector a {
+  color: black;
+}
+
+.SC-selector a:hover {
+  color: gray;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.card .overlay {
+  position: absolute;
+  bottom: 2%;
+  left: 2.5%;
+  width: 95%;
+  color: black;
+  text-align: center;
+}
+.card .overlay .card-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card .overlay .button {
+  opacity: 0%;
+  transform: translateY(30px);
+  transition: all 0.3s ease 150ms;
+}
+
+.SC-card {
+  height: 670px;
+  margin: 10px;
+}
+
+.SC-card img {
+  transition: transform 0.3s ease;
+}
+
+.SC-card:hover img {
+  transform: scale(1.1);
+}
+.SC-card:hover .button {
+  visibility: visible;
+  transform: translateY(-0.3rem);
+  opacity: 100%;
+}
+
+.card-img-small {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+.SC-card-small-container {
+  width: 50%;
+}
+
+.SC-card-small {
+  background-color: #f3f3f3;
+  width: 45%;
+  height: 50%;
+}
+
+.offer {
+  position: relative;
+}
+.offer .offer-text {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 40%;
+}
+.offer .offer-text .btn {
+  margin-top: 50px;
+}
+
+.third-section {
+  position: relative;
+  display: flex;
+}
+.third-section .TS-first-text {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 15%;
+  color: white;
+  border-radius: 0.5rem;
+}
+.third-section .TS-first-text .nav {
+  background-color: red;
+  width: 150%;
+}
+
+.TS-bottom-parent {
+  color: black;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  word-spacing: 2px;
+  position: absolute;
+}
+.TS-bottom-parent .TSB-link {
+  text-decoration: underline;
+}
+
+.fourth-section {
+  height: 500px;
+}
+
+.FS-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 33%;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
+  transition: all 0ms ease 0s;
+}
+
+.FS-btn:hover {
+  text-decoration: none;
+}
+
+.FS-btn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  top: 0px;
+  position: relative;
+  background-color: black;
+  transform: scaleX(0);
+  transition: all 250ms ease 0s;
+  transform-origin: center;
+}
+
+.FS-btn:hover::after {
+  transform: scaleX(1);
+}
+
+@font-face {
+  font-family: "SamsungOne 400";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SamsungOne 400"), url("../fonts/SamsungOne-400.woff") format("woff");
+}
+@font-face {
+  font-family: "SamsungOne 700";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SamsungOne 700"), url("../fonts/SamsungOne-700.woff") format("woff");
+}
+@font-face {
+  font-family: "Samsung Sharp Sans Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Samsung Sharp Sans Bold"), url("../fonts/SamsungSharpSans-Bold.woff") forma("woff");
+}
+
+/*# sourceMappingURL=main.css.map */
