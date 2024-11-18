@@ -219,6 +219,39 @@ a {
   background-color: #e4e2e2;
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.footer .list h4 {
+  margin-top: 15px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.footer .list li {
+  list-style: none;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.last-footer {
+  margin-top: 15px;
+  align-items: center;
+}
+.last-footer p {
+  font-size: 13px;
+  margin-left: 15px;
+}
+.last-footer a {
+  margin-right: 15px;
+}
+
+.right-border {
+  border-right: 1px solid #d9d9d9;
+}
+
 @font-face {
   font-family: "SamsungOne 400";
   font-style: normal;
