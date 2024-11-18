@@ -224,6 +224,22 @@ a{
     transform: scaleX(1);
 }
 
+.search-btns{
+    width: 32%;
+
+    .btn{
+        color: black;
+        font-size: 12px;
+        border-color: gray;
+        margin: 4px;
+
+        &:hover{
+            background-color: #e4e2e2;
+        }
+
+    }
+}
+
 @font-face {
     font-family: 'SamsungOne 400';
     font-style: normal;
